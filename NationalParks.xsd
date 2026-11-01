@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="XMLSchema1"
-    targetNamespace="http://tempuri.org/XMLSchema1.xsd"
+    targetNamespace="https://katherinebaik.github.io/KB-CSE445-Assignment4/NationalParks.xsd"
     elementFormDefault="qualified"
-    xmlns="http://tempuri.org/XMLSchema1.xsd"
-    xmlns:mstns="http://tempuri.org/XMLSchema1.xsd"
+    xmlns="https://katherinebaik.github.io/KB-CSE445-Assignment4/NationalParks.xsd"
+    xmlns:mstns="https://katherinebaik.github.io/KB-CSE445-Assignment4/NationalParks.xsd"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
 >
   <xs:element name="NationalParks">
