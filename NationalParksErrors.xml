@@ -19,8 +19,8 @@
 		<Name>Arches</Name>
 		<Phone>435-719-2299</Phone>
 		<Address nearest_airport="Canyonlands Field">
-			<Number></Number>
-			<Street></Street>
+			<Number>0</Number>
+			<Street>Street</Street>
 			<City>Moab</City>
 			<State>UT</State>
 			<Zip>84532</Zip>
@@ -55,8 +55,8 @@
 		<Name>Death Valley</Name>
 		<Phone>760-786-3200</Phone>
 		<Address nearest_airport="Harry Reid International Airport">
-			<Number></Number>
-			<Street></Street>
+			<Number>0</Number>
+			<Street>Street</Street>
 			<City>Death Valley</City>
 			<State>CA</State>
 			<Zip>92328</Zip>
@@ -78,8 +78,8 @@
 		<Name>Haleakala</Name>
 		<Phone>808-572-4400</Phone>
 		<Address nearest_airport="Kahului Airport">
-			<Number></Number>
-			<Street></Street>
+			<Number>0</Number>
+			<Street>Street</Street>
 			<City>Makawao</City>
 			<State>HI</State>
 			<Zip>96768</Zip>
