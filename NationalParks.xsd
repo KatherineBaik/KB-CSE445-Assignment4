@@ -2,9 +2,7 @@
 <!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
 <xs:schema 
 	attributeFormDefault="unqualified" elementFormDefault="qualified" 
-	xmlns:xs="http://www.w3.org/2001/XMLSchema"
-	xmlns="https://katherinebaik.github.io/KB-CSE445-Assignment4"
-	targetNamespace="https://katherinebaik.github.io/KB-CSE445-Assignment4">
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<xs:element name="NationalParks">
 		<xs:complexType>
 			<xs:sequence>
