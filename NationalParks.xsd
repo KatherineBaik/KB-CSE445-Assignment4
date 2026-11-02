@@ -1,9 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="XMLSchema1"
     targetNamespace="https://katherinebaik.github.io/KB-CSE445-Assignment4/NationalParks.xsd"
-    elementFormDefault="qualified"
-    xmlns="https://katherinebaik.github.io/KB-CSE445-Assignment4/NationalParks.xsd"
-    xmlns:mstns="https://katherinebaik.github.io/KB-CSE445-Assignment4/NationalParks.xsd"
+    elementFormDefault="qualified" attributeFormDefault="unqualified"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
 >
   <xs:element name="NationalParks">
