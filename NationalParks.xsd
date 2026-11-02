@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema id="XMLSchema1"
+<schema id="XMLSchema1"
     targetNamespace="https://katherinebaik.github.io/KB-CSE445-Assignment4/NationalParks.xsd"
     elementFormDefault="qualified" attributeFormDefault="unqualified"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="http://www.w3.org/2001/XMLSchema"
 >
-  <xs:element name="NationalParks">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="NationalPark">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="Name" type="xs:string" minOccurs="1" maxOccurs="1"/>
-              <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
-              <xs:element name="Address">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="Number" type="xs:int" minOccurs="1" maxOccurs="1"/>
-                    <xs:element name="Street" type="xs:string" minOccurs="1" maxOccurs="1"/>
-                    <xs:element name="City" type="xs:string" minOccurs="1" maxOccurs="1"/>
-                    <xs:element name="State" type="xs:string" minOccurs="1" maxOccurs="1"/>
-                    <xs:element name="Zip" type="xs:int" minOccurs="1" maxOccurs="1"/>
-                  </xs:sequence>
-                  <xs:attribute name="nearest_airport" type="xs:string" use="required" />
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-            <xs:attribute name="rating" type="xs:decimal" use="optional" />
-          </xs:complexType>
-        </xs:element>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-</xs:schema>
+  <element name="NationalParks">
+    <complexType>
+      <sequence>
+        <element name="NationalPark">
+          <complexType>
+            <sequence>
+              <element name="Name" type="string" minOccurs="1" maxOccurs="1"/>
+              <element name="Phone" type="string" minOccurs="1" maxOccurs="unbounded"/>
+              <element name="Address">
+                <complexType>
+                  <sequence>
+                    <element name="Number" type="int" minOccurs="1" maxOccurs="1"/>
+                    <element name="Street" type="string" minOccurs="1" maxOccurs="1"/>
+                    <element name="City" type="string" minOccurs="1" maxOccurs="1"/>
+                    <element name="State" type="string" minOccurs="1" maxOccurs="1"/>
+                    <element name="Zip" type="int" minOccurs="1" maxOccurs="1"/>
+                  </sequence>
+                  <attribute name="nearest_airport" type="string" use="required" />
+                </complexType>
+              </element>
+            </sequence>
+            <attribute name="rating" type="xs:decimal" use="optional" />
+          </complexType>
+        </element>
+      </sequence>
+    </complexType>
+  </element>
+</schema>
