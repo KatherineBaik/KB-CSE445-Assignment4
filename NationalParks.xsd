@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <schema id="XMLSchema1"
-    targetNamespace="https://katherinebaik.github.io/KB-CSE445-Assignment4/NationalParks.xsd"
-    elementFormDefault="qualified" attributeFormDefault="unqualified"
     xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="https://katherinebaik.github.io/KB-CSE445-Assignment4/"
+    elementFormDefault="qualified" attributeFormDefault="unqualified"
 >
   <element name="NationalParks">
     <complexType>
@@ -25,7 +25,7 @@
                 </complexType>
               </element>
             </sequence>
-            <attribute name="rating" type="xs:decimal" use="optional" />
+            <attribute name="rating" type="decimal" use="optional" />
           </complexType>
         </element>
       </sequence>
