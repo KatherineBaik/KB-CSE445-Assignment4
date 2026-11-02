@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <NationalParks>
-	
 	<NationalPark rating="4.9">
 		<Name>Grand Canyon</Name>
 		<Phone>928-638-7496</Phone>
@@ -14,7 +13,6 @@
 			<Zip>86023</Zip>
 		</Address>
 	</NationalPark>
-
 	<NationalPark>
 		<Name>Arches</Name>
 		<Phone>435-719-2299</Phone>
@@ -26,7 +24,6 @@
 			<Zip>84532</Zip>
 		</Address>
 	</NationalPark>
-
 	<NationalPark>
 		<Name>Big Bend</Name>
 		<Phone>432-477-2251</Phone>
@@ -38,7 +35,6 @@
 			<Zip>79834</Zip>
 		</Address>
 	</NationalPark>
-
 	<NationalPark>
 		<Name>Crater Lake</Name>
 		<Phone></Phone>
@@ -50,7 +46,6 @@
 			<Zip>97604</Zip>
 		</Address>
 	</NationalPark>
-
 	<NationalPark>
 		<Name>Death Valley</Name>
 		<Phone>760-786-3200</Phone>
@@ -62,7 +57,6 @@
 			<Zip>92328</Zip>
 		</Address>
 	</NationalPark>
-
 	<NationalPark rating="4.6">
 		<Name>Everglades</Name>
 		<Phone>305-242-7700</Phone>
@@ -74,7 +68,6 @@
 			<Zip>33034</Zip>
 		</Address>
 	</NationalPark>
-
 	<NationalPark>
 		<Name>Haleakala</Name>
 		<Phone>808-572-4400</Phone>
@@ -86,7 +79,6 @@
 			<Zip>96768</Zip>
 		</Address>
 	</NationalPark>
-
 	<NationalPark>
 		<Name>Mount Ranier</Name>
 		<Phone>360-569-2211</Phone>
@@ -99,7 +91,6 @@
 			<Zip>98304</Zip>
 		</Address>
 	</NationalPark>
-
 	<NationalPark rating="4.9">
 		<Name>Redwood</Name>
 		<Phone>707-464-6101</Phone>
@@ -111,7 +102,6 @@
 			<Zip>95531</Zip>
 		</Address>
 	</NationalPark>
-
 	<NationalPark>
 		<Name>Shenandoah</Name>
 		<Phone>800-732-0911</Phone>
@@ -124,7 +114,6 @@
 			<Zip>22835</Zip>
 		</Address>
 	</NationalPark>
-
 	<NationalPark rating="4.8">
 		<Name>Yellowstone</Name>
 		<Phone>307-344-7381</Phone>
@@ -139,5 +128,4 @@
 			<Zip>82190</Zip>
 		</Address>
 	</NationalPark>
-
 </NationalParks>
