@@ -1,35 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    targetNamespace="https://katherinebaik.github.io/KB-CSE445-Assignment4/"
-    elementFormDefault="qualified"
-    xmlns="https://katherinebaik.github.io/KB-CSE445-Assignment4/"
->
-  <xs:element name="NationalParks">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element name="NationalPark" minOccurs="0" maxOccurs="unbounded">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element name="Name" type="xs:string" minOccurs="1" maxOccurs="1"/>
-              <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
-              <xs:element name="Address" minOccurs="1" maxOccurs="1">
-                <xs:complexType>
-                  <xs:sequence>
-                    <xs:element name="Number" type="xs:int" minOccurs="1" maxOccurs="1"/>
-                    <xs:element name="Street" type="xs:string" minOccurs="1" maxOccurs="1"/>
-                    <xs:element name="City" type="xs:string" minOccurs="1" maxOccurs="1"/>
-                    <xs:element name="State" type="xs:string" minOccurs="1" maxOccurs="1"/>
-                    <xs:element name="Zip" type="xs:int" minOccurs="1" maxOccurs="1"/>
-                  </xs:sequence>
-                  <xs:attribute name="nearest_airport" type="xs:string" use="required" />
-                </xs:complexType>
-              </xs:element>
-            </xs:sequence>
-            <xs:attribute name="rating" type="xs:decimal" use="optional" />
-          </xs:complexType>
-        </xs:element>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="NationalParks">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" name="NationalPark">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Name" type="xs:string" />
+							<xs:element maxOccurs="unbounded" name="Phone" type="xs:string" />
+							<xs:element name="Address">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Number" type="xs:unsignedShort" />
+										<xs:element name="Street" type="xs:string" />
+										<xs:element name="City" type="xs:string" />
+										<xs:element name="State" type="xs:string" />
+										<xs:element name="Zip" type="xs:unsignedInt" />
+									</xs:sequence>
+									<xs:attribute name="nearest_airport" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="rating" type="xs:decimal" use="optional" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
 </xs:schema>
